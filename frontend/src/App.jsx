@@ -7,14 +7,9 @@ import ImageFeed from './components/ImageFeed'
 import LoginSignup from './components/Login'
 
 function App() {
-  
-
+  console.log("[App] Rendered");
   return (
-    <>
       <Landing />
-      <ImageFeed/>
-      <LoginSignup />
-    </>
   )
 }
 
